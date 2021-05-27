@@ -1,4 +1,10 @@
 # filtrar_pegar_script
 Filtrar datos de una spreadsheet de Google y pegarlos en un document <br> <br>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cn6qOHcgV2M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="420" height="315"
+src="https://www.youtube.com/watch?v=cn6qOHcgV2M&ab_channel=Aprendeen10">
+</iframe>
+
+<video src="videofile.ogg" autoplay poster="posterimage.jpg">
+  Tu navegador no admite el elemento <code>video</code>.
+</video>
