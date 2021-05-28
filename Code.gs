@@ -22,6 +22,18 @@ function testFilter() {
   console.log(datos_filtrados);
 */
 
+/***********************hacer la suma
+var suma = 0
+for (i=1;i<=datos_filtrados.length-1;i++) {
+  //var suma_total_dos= suma_total_dos+ datos_filtrados[i][1]
+  columna=1;
+  var valorASumar= datos_filtrados[i][columna];
+  var suma = suma + valorASumar;
+}
+
+console.log(suma)
+ ***********************************************/
+
 //Pegar los datos en la hoja     //hoja.getRange(fila inicio, columna inicio, alto, ancho)
   var rangoAPegar= hoja.getRange(14,1, datos_filtrados.length,datos_filtrados[0].length);
   rangoAPegar.setValues(datos_filtrados)
@@ -36,6 +48,7 @@ documentoAPegar.getBody().appendTable(datos_filtrados);
 */
 
   documentoAPegar.getBody().insertTable(5,datos_filtrados)
+
 };
 
 /*
